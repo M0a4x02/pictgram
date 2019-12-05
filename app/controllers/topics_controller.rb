@@ -1,5 +1,4 @@
 class TopicsController < ApplicationController
-  before_action :login_check, only: [:new, :edit, :update, :destroy]
   
   def index
     @topics = Topic.all
