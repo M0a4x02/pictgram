@@ -128,10 +128,16 @@ h1, h2 {
       width: 100%;
     }
 
+    .topic-index-icon-red {
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+      background: url(/pictgram2/app/assets/images/icons/heart-black.png) #F00;
+    }
     .topic-index-icon {
       width: 35px;
       height: 30px;
       margin-left: 20px;
-    }
+    }  
   }
 }
